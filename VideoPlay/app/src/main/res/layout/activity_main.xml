@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_mediaPlayer_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorGray"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:text="@string/mediaPlayer_local"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_mediaPlayer_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorGray"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:text="@string/mediaPlayer_url"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_videoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorGray"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:text="@string/videoView"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/tv_vitamio_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorGray"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:text="@string/vitamio_url"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_vitamio_live"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorGray"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:padding="10dp"
+        android:text="@string/vitamio_live"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/surface_media_player_local"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/image_media_player_local"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_media_player_local"
+        android:gravity="center"
+        android:onClick="play"
+        android:text="播放" />
+
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_play"
+        android:gravity="center"
+        android:onClick="pause"
+        android:text="暂停" />
+
+    <Button
+        android:id="@+id/btn_keep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_pause"
+        android:gravity="center"
+        android:onClick="keep"
+        android:text="继续" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_keep"
+        android:gravity="center"
+        android:onClick="stop"
+        android:text="停止" />
+
+</RelativeLayout>
